@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://83190276951914",
+    Image = "rbxassetid://125147537133301",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -2633,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=83190276951914";
+v23.Image = "http://www.roblox.com/asset/?id=125147537133301";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2678,9 +2678,9 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
 end
 v16.Home:AddButton({
     Title = "Discord",
-    Description = "Giao Lưu",
+    Description = "saygex",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox");
+        setclipboard("https://discord.gg/35mTk4DP6K");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -4687,7 +4687,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://83190276951914") then
+                if (v729.MeshId == "rbxassetid://125147537133301") then
                     return v729;
                 end
             end
@@ -6387,7 +6387,7 @@ v89:Stop();
 local v90 = v16.Setting:AddToggle("ToggleBringMob", {
     Title = "Gom Quái",
     Description = "",
-    Default = true
+    Default = false
 });
 v90:OnChanged(function(v277)
     _G.BringMob = v277;
